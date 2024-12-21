@@ -1,0 +1,74 @@
+{
+  "navigation": [
+    {
+      "name": "First Link",
+      "url": "#"
+    },
+    {
+      "name": "Second Link",
+      "url": "#"
+    },
+    {
+      "name": "Third Link",
+      "url": "#"
+    },
+    {
+      "name": "Fourth Link",
+      "url": "#"
+    }
+  ],
+  "CategoriesB": [
+    {
+      "name": "First Link",
+      "url": "#"
+    },
+    {
+      "name": "Second Link",
+      "url": "#"
+    },
+    {
+      "name": "Third Link",
+      "url": "#"
+    },
+    {
+      "name": "Fourth Link",
+      "url": "#"
+    }
+  ],
+  "CategoriesC": [
+    {
+      "name": "First Link",
+      "url": "#"
+    },
+    {
+      "name": "Second Link",
+      "url": "#"
+    },
+    {
+      "name": "Third Link",
+      "url": "#"
+    },
+    {
+      "name": "Fourth Link",
+      "url": "#"
+    }
+  ],
+  "CategoriesD": [
+    {
+      "name": "First Link",
+      "url": "#"
+    },
+    {
+      "name": "Second Link",
+      "url": "#"
+    },
+    {
+      "name": "Third Link",
+      "url": "#"
+    },
+    {
+      "name": "Fourth Link",
+      "url": "#"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Home",
+    "url": "/"
+  },
+  {
+    "name": "Services",
+    "url": "/services"
+  },
+  {
+    "name": "Portfolio",
+    "url": "/portfolio"
+  },
+  {
+    "name": "Resume",
+    "url": "/resume"
+  },
+  {
+    "name": "ContactUs",
+    "url": "/contact-us"
+  },
+  {
+    "name": "AboutUs",
+    "url": "/about-us"
+  }
+]
