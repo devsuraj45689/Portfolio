@@ -2,6 +2,7 @@ import FooterCredit from './FooterCredit';
 import { Button, Forms, FooterNav } from 'components';
 import footerNavigationData from 'data/footerNavigation.json';
 import navigationData from 'data/navigation.json';
+import Categories from './Categories';
 
 export default function Footer() {
   return (
@@ -9,24 +10,15 @@ export default function Footer() {
       <footer className='text-gray-600 bg-gray-200 body-font'>
         <div className='container px-5 py-12 mx-auto'>
           <div className='flex flex-wrap md:text-left text-center order-first'>
-            <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
-              <h2 className='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
-                NAVIGATION
-              </h2>
-              <FooterNav navData={navigationData} />
-            </div>
-            <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
-              <h2 className='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
-                CATEGORIES B
-              </h2>
-              <FooterNav navData={footerNavigationData.CategoriesB} />
-            </div>
-            <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
-              <h2 className='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
-                CATEGORIES C
-              </h2>
-              <FooterNav navData={footerNavigationData.CategoriesC} />
-            </div>
+            <Categories label='NAVIGATION' navData={navigationData} />
+            <Categories
+              label='CATEGORIES B'
+              navData={footerNavigationData.CategoriesB}
+            />
+            <Categories
+              label='CATEGORIES C'
+              navData={footerNavigationData.CategoriesC}
+            />
             <div className='lg:w-1/4 md:w-1/2 w-full px-4'>
               <h2 className='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
                 SUBSCRIBE

@@ -1,7 +1,9 @@
+import { PortfolioSection, CallToActionSection } from 'sections';
 export default function Portfolio() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <PortfolioSection />
+      <CallToActionSection />
     </>
   );
 }
