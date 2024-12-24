@@ -20,6 +20,8 @@ export default function AboutUs() {
               <Image
                 src='https://via.placeholder.com/300'
                 alt='Our Team'
+                width={300}
+                height={300}
                 className='rounded-lg shadow-md mx-auto'
                />
             </div>
