@@ -1,30 +1,31 @@
 'use client';
-import { useState } from 'react';
+// import { useState } from 'react';
 import {Forms,GrowOnHoverButton} from 'components';
 const {Input,TextArea} = Forms;
 
 export default function ContactUs() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   message: '',
+  // });
 
-  const [successMessage, setSuccessMessage] = useState('');
+  // const [successMessage, setSuccessMessage] = useState('');
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+  // const handleChange = (
+  //   e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  // ) => {
+  //   const { name, value } = e.target;
+  //   setFormData({ ...formData, [name]: value });
+  // };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+  }
 
-    setSuccessMessage('Thank you! Your message has been sent.');
-    setFormData({ name: '', email: '', message: '' });
-  };
+  //   setSuccessMessage('Thank you! Your message has been sent.');
+  //   setFormData({ name: '', email: '', message: '' });
+  // };
   return (
     <>
       <section id='contact' className='py-16 bg-gray-100'>
@@ -48,11 +49,11 @@ export default function ContactUs() {
             <TextArea label='Message' placeholder='Your Message' required rows={5} />
             <GrowOnHoverButton type="submit">Send Message</GrowOnHoverButton>
             </form>
-            {successMessage && (
+            {/* {successMessage && (
               <p className='text-green-600 text-center mt-4'>
                 {successMessage}
               </p>
-            )}
+            )} */}
           </div>
         </div>
       </section>
